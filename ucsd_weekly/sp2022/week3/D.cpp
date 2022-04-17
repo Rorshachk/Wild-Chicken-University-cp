@@ -16,6 +16,7 @@ const int N = 2e5 + 10;
 ll n, a[N], t[N];
 vector<P> fil;
 int main(){
+	std::ios::sync_with_stdio(false);
 	cin>>n;
 	ll sum = 0;
 	for(int i = 1; i <= n; i++){
